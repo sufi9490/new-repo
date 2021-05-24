@@ -7,7 +7,7 @@ pipeline{
         stages{
             stage('cloning'){
                 steps{
-                    git 'https://github.com/Devakumar124/terraformtraining1.git'
+                    git 'https://github.com/sufi9490/new-repo.git'
                     
                 }
              }
