@@ -1,7 +1,7 @@
 
 variable "ami" {
 
-  default = "ami-03663f5b24cb271c4"
+  default = "ami-0c00bda7594917804"
 }
 
 variable "instance_count" {
