@@ -1,7 +1,7 @@
 
 resource "aws_instance" "my-instance" {
   count         = var.instance_count
-  ami           = ami-077e31c4939f6a2f3
+  ami           = "ami-077e31c4939f6a2f3"
 
   instance_type = var.instance_type
   
